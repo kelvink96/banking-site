@@ -1,0 +1,17 @@
+.sidebar {
+  .sidebar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+  }
+
+  h3 {
+    margin-left: .5rem;
+    font-weight: bold;
+  }
+
+  .sidebar-menu{
+    border-color: transparent;
+    width: 100%;
+  }
+}

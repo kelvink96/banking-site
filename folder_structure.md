@@ -1,0 +1,6 @@
+- assets - global static assets such as images, svgs, company logo, etc.
+- components - global shared/reusable components, such as layout (wrappers, navigation), form components, buttons
+- services - JavaScript modules
+- store - Global Redux store
+- utils - Utilities, helpers, constants, and the like
+- views - Can also be called "pages", the majority of the app would be contained here

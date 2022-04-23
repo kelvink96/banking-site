@@ -1,0 +1,3 @@
+- <a href='https://www.freepik.com/vectors/bank-card'>Bank card vector created by starline - www.freepik.com</a>
+- <a href='https://www.freepik.com/vectors/credit-cards'>Credit cards vector created by macrovector - www.freepik.com</a>
+- <a href='https://www.freepik.com/vectors/cash-payment'>Cash payment vector created by macrovector - www.freepik.com</a>
