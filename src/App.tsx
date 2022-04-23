@@ -4,7 +4,7 @@ import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";                                //icons
 import "primeflex/primeflex.css";                                //icons
 import {Route, Routes } from 'react-router-dom';
-import {DashboardPage, LandingPage} from "./views";
+import {CardsPage, DashboardPage, LandingPage} from "./views";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/home" element={<DashboardPage/>}/>
+        <Route path="/cards" element={<CardsPage/>}/>
       </Routes>
     </div>
   );
