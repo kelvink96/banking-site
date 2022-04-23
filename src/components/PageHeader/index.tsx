@@ -14,6 +14,7 @@ const PageHeader = ({title}: IProps) => {
 			<Card className="shadow-none border-noround">
 				<div className="flex align-items-center justify-content-between">
 					<h2 className="my-0">{title}</h2>
+					{/*TODO replace with toolbar component*/}
 					<div>
 						<Button icon="pi pi-search" className="p-button-text"/>
 						<Button icon="pi pi-info-circle" className="p-button-text mx-2"/>
