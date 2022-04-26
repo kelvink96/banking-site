@@ -6,10 +6,10 @@ import {Card} from 'primereact/card';
 import {cardsService} from "../../mocks/cards-service";
 import {Badge} from 'primereact/badge';
 import {Toolbar} from "primereact/toolbar";
-import {Sidebar} from "primereact/sidebar";
+import CardDetails from "./CardDetails";
 
 const ListCards = () => {
-	const [products, setProducts] = useState(cardsService);
+	const [cards, setCards] = useState(cardsService);
 	const [layout, setLayout] = useState('list');
 	const [sortKey, setSortKey] = useState(null);
 	const [sortOrder, setSortOrder] = useState<number | undefined | null>(null);
@@ -137,14 +137,11 @@ const ListCards = () => {
 			{/*@ts-ignore*/}
 			<Card>
 				{/*@ts-ignore*/}
-				<DataView value={products} layout={layout} header={header}
+				<DataView value={cards} layout={layout} header={header}
 				          itemTemplate={itemTemplate} paginator rows={9}
 				          sortOrder={sortOrder} sortField={sortField}/>
+				<CardDetails isOpen={showDetails} handleCancel={() => setShowDetails(false)} card={cards[0]}/>
 			</Card>
-			{/*@ts-ignore*/}
-			<Sidebar visible={showDetails} position="right" modal={true} onHide={() => setShowDetails(false)}>
-				<h3>Left Sidebar</h3>
-			</Sidebar>
 		</div>
 	);
 }

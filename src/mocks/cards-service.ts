@@ -16,8 +16,36 @@ export const cardsService = [
 		"active": true,
 		"status": "virtual",
 		"issuedAccess": [
-			{name: "microsoft o365", date: "01/01/2022", period: "monthly", charges: 645},
-			{name: "netflix", date: "04/01/2022", period: "monthly", charges: 1245},
+			{
+				name: "microsoft o365",
+				logo: "https://cdn.hashnode.com/res/hashnode/image/upload/v1647410910018/spTELtuIz.jpeg",
+				date: "01/01/2022",
+				period: "monthly",
+				charges: 645
+			},
+			{
+				name: "netflix",
+				logo: "https://cdn.worldvectorlogo.com/logos/office-2.svg",
+				date: "04/01/2022",
+				period: "monthly",
+				charges: 1245
+			},
+		],
+		"recentTransactions": [
+			{
+				name: "microsoft o365",
+				logo: "https://cdn.hashnode.com/res/hashnode/image/upload/v1647410910018/spTELtuIz.jpeg",
+				date: "01/01/2022",
+				period: "monthly",
+				charges: 645
+			},
+			{
+				name: "netflix",
+				logo: "https://cdn.worldvectorlogo.com/logos/office-2.svg",
+				date: "04/01/2022",
+				period: "monthly",
+				charges: 1245
+			},
 		]
 	},
 ]
